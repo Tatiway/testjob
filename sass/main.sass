@@ -40,7 +40,8 @@ span
 
 /*section1*/
 
-.sec1
+
+.sec
 	&__wrap
 		padding-top: 30px 
 		position: relative
@@ -78,20 +79,6 @@ span
 			background-color: #6f717e
 
 
-/*section2*/
-.sec2
-	&__wrap
-		@extend .sec1__wrap
-	&__img
-		@extend .sec1__img
-	&__title
-		@extend .sec1__title
-	&__text
-		@extend .sec1__text
-	&__button-det
-		@extend .sec1__button-det
-
-
 /*section3*/
 .sec3
 	&__wrap
@@ -111,12 +98,7 @@ span
 		width: 100%
 		background-color: #eaeaea
 		margin-bottom: 22px
-	&__title
-		@extend .sec1__title
-	&__text
-		@extend .sec1__text
-	&__button-det
-		@extend .sec1__button-det
+
 
 
 /*section4*/
@@ -124,12 +106,6 @@ span
 	&__wrap
 		background-color: #fff
 		padding-top: 15px
-	&__title
-		@extend .sec1__title
-	&__text
-		@extend .sec1__text
-	&__button-det
-		@extend .sec1__button-det
 
 
 
@@ -142,7 +118,7 @@ span
 	background-color: #f1f1f1
 	padding: 20px 0 0
 .footer1__title
-	@extend .sec1__title
+	@extend .sec__title
 	margin-right: 40px
 .footer1__title, .footer1__sosial
 	display: inline-block
